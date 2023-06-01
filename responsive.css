@@ -1,0 +1,38 @@
+@media screen and (max-width: 800px){
+    body{
+        background-color: aqua;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    nav ul{
+        justify-content: center;
+    }
+
+    .logo{
+        justify-content: center;
+        margin: 12px 0px;
+    }
+
+    .slider{
+        height: 20vh;
+    }
+
+    .card-items{
+        width: 140px;
+    }
+
+    .search{
+        justify-content: center;
+    }
+
+    .search input{
+        margin: 12px 26px;
+    }
+
+    nav ul{
+        height: 17px;
+    }
+}

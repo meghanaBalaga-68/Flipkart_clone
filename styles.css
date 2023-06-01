@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Prompt:wght@200&display=swap');
+/* css variables mdn by changing website colors */
+:root {
+    --main-bg-color: #2732c7;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Prompt', sans-serif;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
+ nav{
+    display: flex;
+ }
+ .logo{
+    display: flex;
+    align-items: center;
+ }
+ .logo img{
+    width: 80px;
+    padding: 0px 23px;
+ }
+nav ul li{
+   list-style: none;
+   padding: 0px 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    /* when we parse the cursor its moving the content */
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0px 23px;
+    padding: 0px 10px;
+    font-family: 'Prompt', sans-serif;
+}
+.serch button{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 900;
+}
+.container{
+    min-height: calc(100vh - 58px - 9vh);
+}
+.slider{
+    margin: 1px 75px;
+    width: 80vw;
+    overflow: hidden;
+}
+.cards{
+    display: flex;
+    overflow: auto;
+    
+}
+.card {
+    margin: 37px auto;
+    max-width: 90vw;
+    background-color: rgb(222, 228, 228);
+    padding: 0px 8px;
+    
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 15px;
+
+}
+.item{
+    margin: 10px auto;
+}
+.my-1{
+    margin: 12px 0px;
+}
+footer{
+    height: 9vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    
+}
